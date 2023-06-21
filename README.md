@@ -6,6 +6,11 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 ## Mes Laborieux débuts
+    1° étape j'utilise GIT Gui qui est l'interface graphique d'utilisation de GIT
+        - depuis le protocole Https : cloné https://github.com/serorl/doctab.git dans c:\documents\MYDOC_DEV\GITHUB\Public_test
+        - Les modifications en MD peuvent être mises à jour par :
+            
+        
 
 ### Markdown
 
