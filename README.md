@@ -10,12 +10,14 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
         - Les modifications en MD peuvent être mises à jour par :
 ## GIT
 documentation à vérifier 
+```
 git init
 git add _mesfichiers__
 git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/serorl/test1.git 
 git push -u origin master
+```
 
 ## Markdown
 ```markdown
