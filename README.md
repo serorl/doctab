@@ -25,6 +25,14 @@ git push -u origin master
 
 Mise à jour du dépot distant
 git fetch  #  
+git push ..
+
+Pour les dépots git hub, il est nécessaire d'utiliser le logiciel console GH 
+
+apt instal gh
+
+les commandes sont différentes de git 
+
 
 ```
 
