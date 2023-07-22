@@ -4,21 +4,22 @@ You can use the [editor on GitHub](https://github.com/serorl/doctab/edit/master/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-
 ## Mes Laborieux débuts
     1° étape j'utilise GIT Gui qui est l'interface graphique d'utilisation de GIT
         - depuis le protocole Https : cloné https://github.com/serorl/doctab.git dans c:\documents\MYDOC_DEV\GITHUB\Public_test
         - Les modifications en MD peuvent être mises à jour par :
-            
-        
+## GIT
+documentation à vérifier 
+git init
+git add _mesfichiers__
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/serorl/test1.git 
+git push -u origin master
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+## Markdown
 ```markdown
 Syntax highlighted code block
-
 # Header 1
 ## Header 2
 ### Header 3
