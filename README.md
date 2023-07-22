@@ -27,17 +27,14 @@ Mise à jour du dépot distant
 git fetch               #
 git push -u master      # indiquer la branche active
 
+```
 Pour les dépots git hub, il est nécessaire d'utiliser le logiciel console GH 
-
-apt instal gh
-
-les commandes sont différentes de git 
-gh auth login # pour ajouter l'appareil au repository
-documentation : https://cli.github.com/manual/
+` $> apt instal gh `
+Les commandes sont différentes de git. `$> gh auth login` , pour ajouter l'appareil au repository.
+[ documentation Git Hub Cli ](https://cli.github.com/manual/)
 
 ```
-Après le clonage d'un repo distant en cas de modification en local, ne pas oublier d'ajouter tous les fichiers utiles
-puis ` commit -m "message" , avant de faire un git push ..
+**Attention** : Après le clonage d'un repo distant en cas de modification en local, ne pas oublier d'ajouter tous les fichiers utiles puis ` commit -m "message` , avant de faire un git push ..
 
 
 ## Markdown
