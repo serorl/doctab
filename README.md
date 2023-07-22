@@ -36,6 +36,9 @@ gh auth login # pour ajouter l'appareil au repository
 documentation : https://cli.github.com/manual/
 
 ```
+Après le clonage d'un repo distant en cas de modification en local, ne pas oublier d'ajouter tous les fichiers utiles
+puis ` commit -m "message" , avant de faire un git push ..
+
 
 ## Markdown
 ```markdown
