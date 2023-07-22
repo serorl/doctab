@@ -24,15 +24,16 @@ git remote add origin https://github.com/serorl/test1.git
 git push -u origin master
 
 Mise à jour du dépot distant
-git fetch  #  
-git push ..
+git fetch               #
+git push -u master      # indiquer la branche active
 
 Pour les dépots git hub, il est nécessaire d'utiliser le logiciel console GH 
 
 apt instal gh
 
 les commandes sont différentes de git 
-
+gh auth login # pour ajouter l'appareil au repository
+documentation : https://cli.github.com/manual/
 
 ```
 
