@@ -1,40 +1,28 @@
 ## Welcome to GitHub Pages
+You can use the [editor on GitHub](https://github.com/serorl/doctab/edit/master/README.md) to maintain and preview the content for your website in Markdown files. Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-You can use the [editor on GitHub](https://github.com/serorl/doctab/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-## Mes Laborieux débuts
-    1° étape j'utilise GIT Gui qui est l'interface graphique d'utilisation de GIT
-        - depuis le protocole Https : cloné https://github.com/serorl/doctab.git dans c:\documents\MYDOC_DEV\GITHUB\Public_test
-        - Les modifications en MD peuvent être mises à jour par :
 ## GIT
-documentation à vérifier 
+Configurer en global ou local le nom et l'email
 ```
 git config --global user.name "son nom"
-git config --global user.mail "lemail@toto.com"
-
-git clone https://distant  sous-repertoire-local # depuis le répertoire parent
-
+git config --global user.email "lemail@toto.com"
+```
+```
 git init
 git add _mesfichiers__
 git commit -m "first commit"
-git branch -M master
-git remote add origin https://github.com/serorl/test1.git 
-git push -u origin master
-
-Mise à jour du dépot distant
-git fetch               #
-git push -u master      # indiquer la branche active
-
 ```
+Ajouter un dépot distant ` git clone https://distant  sous-repertoire-local`  depuis le répertoire parent.
+**Attention** : Après le clonage d'un repo distant en cas de modification en local, ne pas oublier d'ajouter tous les fichiers `git add fichiers` utiles puis ` commit -m "message` , avant de faire un git push ..
+
+Mise à jour du dépot distant `git push -u master` ou utiliser `git pull` si le dépot distant est plus à jour.
+La commande `git fetch --all` télécharge sans fusionner les documents. Permet de connaitre l'état comparatif.
+
+
 Pour les dépots git hub, il est nécessaire d'utiliser le logiciel console GH 
 ` $> apt instal gh `
 Les commandes sont différentes de git. `$> gh auth login` , pour ajouter l'appareil au repository.
 [ documentation Git Hub Cli ](https://cli.github.com/manual/)
-
-```
-**Attention** : Après le clonage d'un repo distant en cas de modification en local, ne pas oublier d'ajouter tous les fichiers utiles puis ` commit -m "message` , avant de faire un git push ..
 
 
 ## Markdown
