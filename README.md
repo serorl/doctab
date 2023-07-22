@@ -9,6 +9,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
         - depuis le protocole Https : cloné https://github.com/serorl/doctab.git dans c:\documents\MYDOC_DEV\GITHUB\Public_test
         - Les modifications en MD peuvent être mises à jour par :
 ## GIT
+
+git config --global user.name "son nom"
+git config --global user.mail "lemail@toto.com"
+
 documentation à vérifier 
 ```
 git init
