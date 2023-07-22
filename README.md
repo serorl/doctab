@@ -14,6 +14,7 @@ documentation à vérifier
 git config --global user.name "son nom"
 git config --global user.mail "lemail@toto.com"
 
+git clone https://distant  sous-repertoire-local # depuis le répertoire parent
 
 git init
 git add _mesfichiers__
@@ -21,6 +22,10 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/serorl/test1.git 
 git push -u origin master
+
+Mise à jour du dépot distant
+git fetch  #  
+
 ```
 
 ## Markdown
