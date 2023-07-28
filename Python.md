@@ -9,8 +9,7 @@ Sites de référence :
 
 # jupyterlab
 - pip3 install jupyterlab
-- * jupyter lab *  pour lancer jupyther   
-Lancer le notebook dans un répertoire spécifique pour l'accès aux fichiers système.
+- **jupyter lab**  pour lancer jupyther. Lancer le notebook dans un répertoire spécifique pour l'accès aux fichiers système.
 ` jupyter lab --notebook-dir=/home/moi/Documents/  --preferred-dir /home/moi/Documents/DEVWEB/CODEDOC/ `
 
 # Modules :
