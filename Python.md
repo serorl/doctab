@@ -4,8 +4,8 @@ Sites de référence :
 - 
 
 # environnement virtuel Venv
-@debian ` apt-get install python3-venv ` installer venv
-@debian `python3 -m venv env & source env/bin/activate ` pour  instancier et activer l'environnement.
+- @debian ` apt-get install python3-venv ` installer venv
+- @debian `python3 -m venv env & source env/bin/activate ` pour  instancier et activer l'environnement.
 
 # Modules :
 
