@@ -20,7 +20,7 @@ Sites de référence :
     - series : colonne de valeurs  || `myserie = pd.Series([1, 2, 3, 4, 5, 6, 7, 8])` 
     - dataframe : matrice || `df = pd.dataframe()`
 - Exemple :
-  ``` python 
+  ``` python
         data = {
             'Pays': ['Russie', 'Italie', 'Maroc', 'France'],
             'Densité': [8.57, 200.27, 65.46, 117.63]
@@ -28,6 +28,18 @@ Sites de référence :
           df = pd.DataFrame( data , index = range(1,5) )
           df.head(3)  # head affiche les premières lignes 
     ```
+  
+  ``` python
+       # lire un fichier
+              header = 0 (présence d'un header)
+              index_col = None ( ajoute un index )
+
+      df = pd.read_csv('/tmp/TEST.csv', header = 0, index_col = None)
+     print( df ) 
+  
+    ```
+
+  
 # Modules :
 
 # Les paquets :
