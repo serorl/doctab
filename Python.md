@@ -9,9 +9,26 @@ Sites de référence :
 
 # jupyterlab
 - pip3 install jupyterlab
-- _jupyter lab_  pour lancer jupyther.
+- _jupyter lab_  pour lancer jupyter.
 - Lancer le notebook dans un répertoire spécifique pour l'accès aux fichiers système.
 ` jupyter lab --notebook-dir=/home/moi/Documents/  --preferred-dir /home/moi/Documents/DEVWEB/CODEDOC/ `
+
+# pandas & openpyxl
+- pip3 install pandas & pip3 install openpyxl ( pour la manimulation des fichiers xls )
+- import pandas as pd
+- concepts :
+    - series : colonne de valeurs  || `myserie = pd.Series([1, 2, 3, 4, 5, 6, 7, 8])` 
+    - dataframe : matrice || `df = pd.dataframe()`
+- Exemple :
+  ``` python 
+    data = {
+            'Pays': ['Russie', 'Italie', 'Maroc', 'France'],
+            'Densité': [8.57, 200.27, 65.46, 117.63]
+            }
+df = pd.DataFrame( data , index = range(1,5) )
+df.head(3)  # head affiche les premières lignes 
+  
+  ```
 
 # Modules :
 
