@@ -21,15 +21,13 @@ Sites de référence :
     - dataframe : matrice || `df = pd.dataframe()`
 - Exemple :
   ``` python 
-    data = {
+        data = {
             'Pays': ['Russie', 'Italie', 'Maroc', 'France'],
             'Densité': [8.57, 200.27, 65.46, 117.63]
             }
-df = pd.DataFrame( data , index = range(1,5) )
-df.head(3)  # head affiche les premières lignes 
-  
-  ```
-
+          df = pd.DataFrame( data , index = range(1,5) )
+          df.head(3)  # head affiche les premières lignes 
+    ```
 # Modules :
 
 # Les paquets :
